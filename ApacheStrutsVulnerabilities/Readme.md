@@ -1,15 +1,15 @@
 # Using Loki for the file based detection of web services with Apache Struts Vulnerabilities
 ## What's Loki?
-Loki is a Scanner for Simple Indicators of Compromise. It provides a detection
-for filenames, hashs, yara or C2 Back Connect.
+Loki is a Scanner for simple Indicators of Compromise. It provides a detection
+for filenames, hashws, yara or C2 back connect.
 
-Special thanks to Florian Roth - https://github.com/Neo23x0
+Special thanks to Florian Roth - https://github.com/Neo23x0 - check him out on Twitter: https://twitter.com/cyb3rops
 ## Setup Loki
 Loki can be obtained here: https://github.com/Neo23x0/Loki
 
 Follow the instructions from the Readme.md to setup Loki on Linux or Windows
 based systems. After the Loki Setup is complete, copy the `struts-sha1-hash.txt`
-or `struts-core-sha1-hash.txt` in `./Loki/signature-base/iocs/.`
+or `struts-core-sha1-hash.txt` to `./Loki/signature-base/iocs/.`
 
 Loki is now ready to scan the file system for vulnerable Struts JAR's
 
