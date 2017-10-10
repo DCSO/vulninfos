@@ -1,24 +1,30 @@
-# Using Loki for the file based detection of web services with Apache Struts Vulnerabilities
-## What's Loki?
-Loki is a Scanner for Simple Indicators of Compromise. It provides a detection
-for filenames, hashs, yara or C2 Back Connect.
+# Using Loki for file-based detection of web services with Apache Struts Vulnerabilities
 
-Special thanks to Florian Roth - https://github.com/Neo23x0
+## What's Loki?
+
+Loki is a scanner for simple Indicators of Compromise, detecting them via
+filenames, hashes, YARA rules or C2 back connect.
+
+Special thanks to Florian Roth (https://github.com/Neo23x0 or
+[@cyb3rops](https://twitter.com/cyb3rops) on Twitter).
+
 ## Setup Loki
+
 Loki can be obtained here: https://github.com/Neo23x0/Loki
 
-Follow the instructions from the Readme.md to setup Loki on Linux or Windows
-based systems. After Loki Setup is complete, copy your desired scan file
-like `Wordpress/vuln-wordpress-plugins-hash` to `./Loki/signature-base/iocs/.`
+Follow the instructions given in Loki's [README.md](https://github.com/Neo23x0/Loki/blob/master/README.md)
+to set up Loki on Linux or Windows based systems. After the Loki setup is
+complete, copy the `struts-sha1-hash.txt` or `struts-core-sha1-hash.txt` to
+`./Loki/signature-base/iocs/`.
 
-Loki is now ready to scan the file system for vulnerable files.
+Loki is now ready to scan the file system for vulnerable Struts JARs.
 
 ## Start Scan
-**Be aware, that a file scan may disturb or interrupt running service's. Make a
-Backup or Snapshot of your system before you start a scan!**
+**Be aware that a file scan may disturb or interrupt running services. It is recommended to have a
+backup or snapshot of your system available before starting a scan!**
 
-For a faster and less disturbing scan, we recommend limiting the search range as
-far as possible e.g to the appropriate application folder.
+For a faster and less disruptive scan, we recommend to only scan the
+application server-specific directories:
 
 On Linux
 ```
@@ -30,7 +36,7 @@ On Windows
 loki.exe --intense -p C:\path\to\the\server\webapps
 ```
 
-If you still want to scan the whole system
+If you still want to scan the whole system:
 
 On Linux
 ```
@@ -42,13 +48,15 @@ On Windows
 loki.exe --intense
 ```
 
-The output of a scan might look like this:
+An example scan output might look like this:
+
 ![Loki Output](example.jpg)
 
-For additional Information's read the Loki documentation at
-https://github.com/Neo23x0/Loki/blob/master/README.md
+For additional information please refer to the upstream Loki documentation
+at https://github.com/Neo23x0/Loki/blob/master/README.md.
 
-## Vulnerability Files
+## Vulnerability indicator files
+
 All indicator files can be obtained from the corresponding subfolder.
 Please read the appropriate README.md for further information about subject and
 usage.
