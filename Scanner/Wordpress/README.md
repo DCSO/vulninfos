@@ -1,10 +1,12 @@
-# Wordpress Hashes
-**vuln-plugins-hash.txt**
+# Wordpress hashes
 
-Contains hashes that indicates various vulnerable Wordpress Plugins.
+**vuln-wordpress-plugins-hash.txt**
+
+This file contains hashes that indicate various vulnerable Wordpress plugins.
 A complete list is shown below.
 
-## List of Plugins
+## List of vulnerable plugins
+
 ### Appointments
 * Vulnerability: Unauthenticated PHP Object Injection
 * CVE: 9.8
@@ -23,7 +25,7 @@ A complete list is shown below.
  * https://wpvulndb.com/vulnerabilities/8923
  * https://www.wordfence.com/blog/2017/10/3-zero-day-plugin-vulnerabilities-exploited-wild/
 
-## RegistrationMagic-Custom Registration Forms
+### RegistrationMagic-Custom Registration Forms
 * Vulnerability: Unauthenticated PHP Object Injection
 * CVE: 9.8
 * Affected versions: <= 3.7.9.2

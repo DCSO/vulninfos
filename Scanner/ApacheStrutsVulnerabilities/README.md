@@ -1,21 +1,24 @@
 # Struts Hash Files
+
 **struts-core-sha1-hash.txt**
 
-Contains only hashes from the Struts Core JAR files and should be used for
-a quick scan of the application server or sytem
+This file contains only hashes from the Struts Core JAR files and should be
+used for quick scans of the application server or system.
 
 **struts-sha1-hash.txt**
 
-Contains all hashes from the `struts-core-sha1-hash.txt` as whole as
-additional Struts library JAR's that possible indicates to a vulnerable Apache
-Strut Version.
+In addition to all hashes from `struts-core-sha1-hash.txt`, this file contains
+hashes for additional Struts library JARs that possibly indicate a vulnerable
+Apache Struts version.
 
-## List of covered CVE's
+## List of covered CVEs
+
 * Apache Struts CVE-2017-9805 Remote Code Execution Vulnerability
 * Apache Struts CVE-2017-9791 Remote Code Execution Vulnerability
 * Apache Struts CVE-2017-5638 Remote Code Execution Vulnerability
 
 ## List of covered Struts versions
+
 * Apache Struts 2.3.31
 * Apache Struts 2.3.30
 * Apache Struts 2.3.28
@@ -77,8 +80,10 @@ Strut Version.
 * Apache Struts 2.1.3
 
 ### List of additional Struts versions
-Because of their slightly high age, the hash files also contains the following
-Struts versions
+
+Because of their slightly high age, the indicator files also contain hashes for
+the following Struts versions:
+
 * Apache Struts 1.2
 * Apache Struts 1.2.2
 * Apache Struts 1.2.4

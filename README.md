@@ -4,6 +4,6 @@ Information regarding publicly discussed vulnerabilities from the DCSO Threat In
 
 ## License
 
-Unless otherwise specified BSD-3 clause applies.
+Unless otherwise specified, a BSD 3-clause license applies (see `LICENSE`).
 
-Copyright &copy; 2017, DCSO Deutsche Cyber-Sicherheitsorganisation GmbH 
+Copyright &copy; 2017, DCSO Deutsche Cyber-Sicherheitsorganisation GmbH
