@@ -1,71 +1,21 @@
-# Using Loki for the file based detection of web services with Apache Struts Vulnerabilities
-## What's Loki?
-Loki is a Scanner for Simple Indicators of Compromise. It provides a detection
-for filenames, hashs, yara or C2 Back Connect.
-
-Special thanks to Florian Roth - https://github.com/Neo23x0
-## Setup Loki
-Loki can be obtained here: https://github.com/Neo23x0/Loki
-
-Follow the instructions from the Readme.md to setup Loki on Linux or Windows
-based systems. After the Loki Setup is complete, copy the `struts-sha1-hash.txt`
-or `struts-core-sha1-hash.txt` in `./Loki/signature-base/iocs/.`
-
-Loki is now ready to scan the file system for vulnerable Struts JAR's
-
-## Start Scan
-**Be aware, that a file scan may disturb or interrupt running service's. Make a
-Backup or Snapshot of your system before you start a scan!**
-
-For a faster and less disruptive scan, we recommend to only scan the directories
-of the Application Server
-
-On Linux
-```
-$> python loki.py --intense -p /path/to/the/server/webapps
-```
-
-On Windows
-```
-loki.exe --intense -p C:\path\to\the\server\webapps
-```
-
-If you still want to scan the whole system
-
-On Linux
-```
-$> python loki.py --intense
-```
-
-On Windows
-```
-loki.exe --intense
-```
-
-The output of a scan might look like this:
-![Loki Output](example.jpg)
-
-For additional Information's read the Loki documentation at
-https://github.com/Neo23x0/Loki/blob/master/README.md
-
-## Struts Hash Files
+# Struts Hash Files
 **struts-core-sha1-hash.txt**
 
-It contains only hashes from the Struts Core JAR files and should be used for
+Contains only hashes from the Struts Core JAR files and should be used for
 a quick scan of the application server or sytem
 
 **struts-sha1-hash.txt**
 
-It contains all hashes from the `struts-core-sha1-hash.txt` as whole as
+Contains all hashes from the `struts-core-sha1-hash.txt` as whole as
 additional Struts library JAR's that possible indicates to a vulnerable Apache
 Strut Version.
 
-### List of covered CVE's
+## List of covered CVE's
 * Apache Struts CVE-2017-9805 Remote Code Execution Vulnerability
 * Apache Struts CVE-2017-9791 Remote Code Execution Vulnerability
 * Apache Struts CVE-2017-5638 Remote Code Execution Vulnerability
 
-### List of covered Struts versions
+## List of covered Struts versions
 * Apache Struts 2.3.31
 * Apache Struts 2.3.30
 * Apache Struts 2.3.28

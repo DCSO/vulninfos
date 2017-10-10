@@ -1,0 +1,111 @@
+# Appointments <= 2.2.1 - Unauthenticated PHP Object Injection
+# Possible Remote Code Execution
+# https://wpvulndb.com/vulnerabilities/8922
+#
+
+## SHA1
+feeb24624652f512863c270afc2a1563547516c7;  class-app-sessions.php | vulnerable Wordpress Plugin Appointments Version 2.0.4 - 2.2.0 | https://wpvulndb.com/vulnerabilities/8922
+## SHA256
+e797c95da6d5c89091566e3c6a0393e92007ff533b2ff845455b043b7b85a547;  class-app-sessions.php | Vulnerable Wordpress Plugin Appointments Version 2.0.4 - 2.2.0 | https://wpvulndb.com/vulnerabilities/8922
+
+# Flickr Gallery <= 1.5.2 - Unauthenticated PHP Object Injection
+# Possible Remote Code Execution
+# https://wpvulndb.com/vulnerabilities/8923
+#
+
+## SHA1
+0bf1b2ee9930ec6266e5f03dcf80be1f96f6c43c;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 0.1.0 | https://wpvulndb.com/vulnerabilities/8923
+8b13d0439db3cf5bbb2a484d591801a24558865b;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 0.1.1 | https://wpvulndb.com/vulnerabilities/8923
+2a03efc77f4ff50a42bd973e2c43ca1377c99eaf;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 0.1.2 | https://wpvulndb.com/vulnerabilities/8923
+c31996562029f7d043ccabf703a69bc380524c95;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 0.1.3 | https://wpvulndb.com/vulnerabilities/8923
+c337b8f54c51c55ebe71c40502161c0ae0e1ffc8;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 0.2.0 | https://wpvulndb.com/vulnerabilities/8923
+18e40984e445a9a5315c52b4a3660cf38685e1ee;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 0.2.1 | https://wpvulndb.com/vulnerabilities/8923
+bc7e0c00bb19142e0b6f3f8bbafa4bdec061ba1c;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 0.2.2 | https://wpvulndb.com/vulnerabilities/8923
+5d099d13579ba65976564d5d2880521b5a0fc261;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 0.3.0 | https://wpvulndb.com/vulnerabilities/8923
+77012013968b041ba44fde52b555c53a62357153;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 0.3.1 | https://wpvulndb.com/vulnerabilities/8923
+be2060db74c3e76a383147c3af2124ebaad43bfa;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 0.4.0 | https://wpvulndb.com/vulnerabilities/8923
+343c144c95f2eca9fe5b7c3dafb119955027457d;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 0.4.1 | https://wpvulndb.com/vulnerabilities/8923
+fd6d76f5124880fd00cf8fa8c8738e5d95c9179b;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 0.4.2 | https://wpvulndb.com/vulnerabilities/8923
+5843eb9f7c2b6190ad11d7b9355291d5106c4142;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 1.0.0 | https://wpvulndb.com/vulnerabilities/8923
+c745db10f1d97bccfdc648a77c8bc01e80d9da56;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 1.0.1 | https://wpvulndb.com/vulnerabilities/8923
+e4be78526100c32bda371c57894a6e749ce11e06;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 1.1.0 | https://wpvulndb.com/vulnerabilities/8923
+718478ce0544070c8f822517676b63d96bd9d18c;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 1.1.1 | https://wpvulndb.com/vulnerabilities/8923
+be972346d049d1c138a984b0b3b341b2d8b876e9;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 1.1.2 | https://wpvulndb.com/vulnerabilities/8923
+df21e882021852b8ad34905de9227c7992be3f12;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 1.1.4 | https://wpvulndb.com/vulnerabilities/8923
+3126a0ab9b2b61252a9764dbae542d0f6e328640;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 1.2.0 | https://wpvulndb.com/vulnerabilities/8923
+2cc8be9dfbc810c1e732836262a4e84b5b4e45d8;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 1.2.1 | https://wpvulndb.com/vulnerabilities/8923
+6191f648bab5d86d0baadb9ebb1dd849a3025817;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 1.2.2 | https://wpvulndb.com/vulnerabilities/8923
+b929cace4fac79d3b6d078733a8ebe47b83eabc3;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 1.2.3 | https://wpvulndb.com/vulnerabilities/8923
+40cdc1285682d48d79f927792646d500ba144f02;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 1.2.4 | https://wpvulndb.com/vulnerabilities/8923
+fbe56253e56afe44c293cb8d1d15ff2493b0e1c7;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 1.2.5 | https://wpvulndb.com/vulnerabilities/8923
+f978733cebd0a316302fae0409ba84bd5c2e5987;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 1.2.6 | https://wpvulndb.com/vulnerabilities/8923
+41f02bee7ed3f8a33c2b003ab2711c0026e87f0d;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 1.2.7 | https://wpvulndb.com/vulnerabilities/8923
+93f75223e12a59025de8cf8391e54bbc6bb4c4f9;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 1.2.8 | https://wpvulndb.com/vulnerabilities/8923
+088583c0ca72e97f720a380d2cf2e7dd00ed1f14;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 1.2.9 | https://wpvulndb.com/vulnerabilities/8923
+750eaadddcee5d8a464742540c3ef2bf557062c4;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 1.3.0 | https://wpvulndb.com/vulnerabilities/8923
+b35fc8cc54d2b85a014bf8d7c239ede1491991d9;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 1.4.0 | https://wpvulndb.com/vulnerabilities/8923
+144bcf438d554e24f83ea7a22107866a9e1b6467;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 1.5.0 | https://wpvulndb.com/vulnerabilities/8923
+d2bceaf0c12fa30d27b20eda926e8ff88e20dec8;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 1.5.1 | https://wpvulndb.com/vulnerabilities/8923
+595d2095e37d2dacc0694164c0d73fce7edae05d;  flickr-gallery.php | vulnerable Wordpress Plugin Flickr Gallery Version 1.5.2 | https://wpvulndb.com/vulnerabilities/8923
+
+## SHA256
+15df1518571c819e0a8e374078b8b483f50b11a9afe011f8d99a08094b631de8;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 0.1.0 | https://wpvulndb.com/vulnerabilities/8923
+805eb1d550e00f7d8541229ec1bf1b51de29b548af6b5a50da3b84998912c4ff;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 0.1.1 | https://wpvulndb.com/vulnerabilities/8923
+f4bc2daf6faa541089b2996ed3db1fe87e75707a8572bfd9c4fc5e83bcd420aa;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 0.1.2 | https://wpvulndb.com/vulnerabilities/8923
+f1e0c9b0d0ca64d80be7bf54195f8227f919aef70ac9f9ecf3a553a5309c5830;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 0.1.3 | https://wpvulndb.com/vulnerabilities/8923
+5eaddecefd34c428070e3e61da8f794a0b2b3a24d272399c0c925f6de3d14643;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 0.2.0 | https://wpvulndb.com/vulnerabilities/8923
+afdf1292a8578f00e790d065059cdcdfa1aa09806dfb2977d61e04f795bc58b3;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 0.2.1 | https://wpvulndb.com/vulnerabilities/8923
+0084ae601acdb1f18b0005ece6ffbfbc8d471301ebed58911aa317a4551aa164;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 0.2.2 | https://wpvulndb.com/vulnerabilities/8923
+61dd54459f33412528e3c338ca5f9e7736c8f45cb0a1a55ec5543e3188e850cc;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 0.3.0 | https://wpvulndb.com/vulnerabilities/8923
+6b15400b1c8bf85cf23ad7f40c9fb31d160e69a3cafdebf06fe95398714d40d3;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 0.3.1 | https://wpvulndb.com/vulnerabilities/8923
+c749ddecb87a61f87b844320018c5528c0a632d4d6dd19569d1953b6cd2bfe12;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 0.4.0 | https://wpvulndb.com/vulnerabilities/8923
+3db23351653c3ae95860836a136f78fe19c82b064db24534c4ae51705e668e49;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 0.4.1 | https://wpvulndb.com/vulnerabilities/8923
+8f808b614ea43abe140c747c877f4fcdeb6b5e12d490baa51b12d624e39d4695;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 0.4.2 | https://wpvulndb.com/vulnerabilities/8923
+086f96cc121aeca4f1941ca9486d597d7a67ee7e8fcde3e86c743ae077c0ef66;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 1.0.0 | https://wpvulndb.com/vulnerabilities/8923
+f2820fe65f965bb8382eb8a2e4fd98809fa35ae38f85f44f4f26c1eaf2ef8dc0;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 1.0.1 | https://wpvulndb.com/vulnerabilities/8923
+4a8470d69d8455162392a58e16fab4852a15f78aeda08cf58b422df66df0e929;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 1.1.0 | https://wpvulndb.com/vulnerabilities/8923
+451aa0033993abb33aa0f5ba17051426d5593ae2a02340abee0f200a9d044026;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 1.1.1 | https://wpvulndb.com/vulnerabilities/8923
+d9c9a26e08678c97a1c174dcb55ea85476c19a61489a3733cf448c74d76c707d;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 1.1.2 | https://wpvulndb.com/vulnerabilities/8923
+2e36d4582c236c1792168f8e8870973fa8948e795022f5f5930163c85b617d5b;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 1.1.4 | https://wpvulndb.com/vulnerabilities/8923
+b710a5c2b28f1e52f495e904d40bc772264fdf5391813594c1faab9996db4e6e;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 1.2.0 | https://wpvulndb.com/vulnerabilities/8923
+74b6762b1a588e29e5d5557f9b1bcdb52010db304d4eb5c3d9b8c4ff9176deb9;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 1.2.1 | https://wpvulndb.com/vulnerabilities/8923
+345818c6c3c2a2441efd8f2740302bbcb8f382af2a58382f8161bafdf9207c3b;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 1.2.2 | https://wpvulndb.com/vulnerabilities/8923
+d104752a69fa85405bb2795b234b9bb0b13d1037b66cc260954062de580c9c24;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 1.2.3 | https://wpvulndb.com/vulnerabilities/8923
+11c4e324f01d550a1023b86ea92fffc96b3d0f516239be54b85b01128401d44b;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 1.2.4 | https://wpvulndb.com/vulnerabilities/8923
+1a7666764be468c0a052cc2f253b714c9a669e8c543cb4424ddc3ffdae9edad8;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 1.2.5 | https://wpvulndb.com/vulnerabilities/8923
+26ba5ee9fff12040576689609b31441c3778922cdbffe27859745e482536d1b6;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 1.2.6 | https://wpvulndb.com/vulnerabilities/8923
+8830e237384aff6c80b3b732ed82b3797fb780a336d7b4ad1057d0a6d1ce7249;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 1.2.7 | https://wpvulndb.com/vulnerabilities/8923
+32c9e6d61c3348d44ddf8ab52539bdd7519336f1b2887513412844adf7cbe3d3;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 1.2.8 | https://wpvulndb.com/vulnerabilities/8923
+83cc4b6957cd0ef766451d2def3107257e50c583488b6106e67d341bd49762e8;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 1.2.9 | https://wpvulndb.com/vulnerabilities/8923
+b5330d8720abffa610d8cec5f4885649634db5c14ed2c543d9cb439c06205e73;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 1.3.0 | https://wpvulndb.com/vulnerabilities/8923
+07c25e4a7d17583a1eb510b4b96a75c44dbcee9a7452c5e74eb643966000b88c;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 1.4.0 | https://wpvulndb.com/vulnerabilities/8923
+ae55b2b9ffb6066cc835e2d7f75cfc32fc11ee6bb05c25a250193457a669d79c;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 1.5.0 | https://wpvulndb.com/vulnerabilities/8923
+90799f6e800b64767e79c7df259eb06975f0d0efd097a6a1700aef507f08c456;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 1.5.1 | https://wpvulndb.com/vulnerabilities/8923
+3f11adf3e5648557e35ac39e92399313ffc8808498796010482f030c375c6c9d;  flickr-gallery.php | Vulnerable Wordpress Plugin Flickr Gallery Version 1.5.2 | https://wpvulndb.com/vulnerabilities/8923
+
+# RegistrationMagic-Custom Registration Forms <= 3.7.9.2 - Unauthenticated PHP Object Injection
+# Possible Remote Code Execution
+# https://wpvulndb.com/vulnerabilities/8924
+#
+
+# SHA1
+18a2eda62e4535a4d8dd4bc2c5c5a61e2664db9d;  class_rm_dbmanager.php | vulnerable Wordpress Plugin RegistrationMagic-Custom Registration Forms Version 3.1.7.4 | https://wpvulndb.com/vulnerabilities/8924
+764a6ee41de1282eb7b3d2bd7c20982a44da7e60;  class_rm_dbmanager.php | vulnerable Wordpress Plugin RegistrationMagic-Custom Registration Forms Version 3.5.0.1 - 3.5.1.31 | https://wpvulndb.com/vulnerabilities/8924
+5545db340811f3daf8c31134218947e9c7fc360f;  class_rm_dbmanager.php | vulnerable Wordpress Plugin RegistrationMagic-Custom Registration Forms Version 3.5.2.2, 3.5.2.3 | https://wpvulndb.com/vulnerabilities/8924
+cbe34a1ffc27f2267d067f4579bfca6b0d6072eb;  class_rm_dbmanager.php | vulnerable Wordpress Plugin RegistrationMagic-Custom Registration Forms Version 3.5.3.0, 3.5.3.3 | https://wpvulndb.com/vulnerabilities/8924
+d7ee7ecacb6d16e53e97b37b9e3a3e484393cc81;  class_rm_dbmanager.php | vulnerable Wordpress Plugin RegistrationMagic-Custom Registration Forms Version 3.5.4.1 | https://wpvulndb.com/vulnerabilities/8924
+893f20f117840265e7da4033ff9a78291665bc54;  class_rm_dbmanager.php | vulnerable Wordpress Plugin RegistrationMagic-Custom Registration Forms Version 3.6.0.0 - 3.6.0.2 | https://wpvulndb.com/vulnerabilities/8924
+43390fbb05eb0cef544fd08676f01390f7beb920;  class_rm_dbmanager.php | vulnerable Wordpress Plugin RegistrationMagic-Custom Registration Forms Version 3.6.0.3 - 3.6.1.3 | https://wpvulndb.com/vulnerabilities/8924
+6b3223d0d62f36591ad9d02f69f4b01e4d6db3b2;  class_rm_dbmanager.php | vulnerable Wordpress Plugin RegistrationMagic-Custom Registration Forms Version 3.7.2.0 - 3.7.5.0 | https://wpvulndb.com/vulnerabilities/8924
+534c5eae072bc95c82c355018c31ed4e13237f1a;  class_rm_dbmanager.php | vulnerable Wordpress Plugin RegistrationMagic-Custom Registration Forms Version 3.7.5.1 - 3.7.9.2 | https://wpvulndb.com/vulnerabilities/8924
+
+## SHA256
+9f6ce6eff66160ae03c738e57d2b807114901edaf0c3b1ffe65d7d13531e4361;  class_rm_dbmanager.php | Vulnerable Wordpress Plugin RegistrationMagic-Custom Registration Forms Version 3.1.7.4 | https://wpvulndb.com/vulnerabilities/8924
+5732d23fec6d6caa4391593b5351a8da00da572acc959e64f20c6153f1d61f45;  class_rm_dbmanager.php | Vulnerable Wordpress Plugin RegistrationMagic-Custom Registration Forms Version 3.5.0.1 - 3.5.1.31 | https://wpvulndb.com/vulnerabilities/8924
+c7ac3ae298b1a104611195dfc52144f4874174ff501d3ce4bf81e90ccce80d3d;  class_rm_dbmanager.php | Vulnerable Wordpress Plugin RegistrationMagic-Custom Registration Forms Version 3.5.2.2, 3.5.2.3 | https://wpvulndb.com/vulnerabilities/8924
+c328e84f6ffc92e62158fb8ca977b9f683f3e4c6cdb724345ca20438aaf78087;  class_rm_dbmanager.php | Vulnerable Wordpress Plugin RegistrationMagic-Custom Registration Forms Version 3.5.3.0, 3.5.3.3 | https://wpvulndb.com/vulnerabilities/8924
+b79962ffc8d7320dadea501de560e51655b3d8b4fea787701e21544a9e981fa5;  class_rm_dbmanager.php | Vulnerable Wordpress Plugin RegistrationMagic-Custom Registration Forms Version 3.5.4.1 | https://wpvulndb.com/vulnerabilities/8924
+891bdf543c1ba2a05c8e37814ccb129439d318c8871d3670b96e558933d1feb0;  class_rm_dbmanager.php | Vulnerable Wordpress Plugin RegistrationMagic-Custom Registration Forms Version 3.6.0.0 - 3.6.0.2 | https://wpvulndb.com/vulnerabilities/8924
+2bde3601a70561739707f20921d251a3c190c3682708fd87b2526e1104e55a0f;  class_rm_dbmanager.php | Vulnerable Wordpress Plugin RegistrationMagic-Custom Registration Forms Version 3.6.0.3 - 3.6.1.3 | https://wpvulndb.com/vulnerabilities/8924
+9bbaa170b9a89ff9dea309cf2bdf0cd9fe542077c738df9b89c741b0c4784068;  class_rm_dbmanager.php | Vulnerable Wordpress Plugin RegistrationMagic-Custom Registration Forms Version 3.7.2.0 - 3.7.5.0 | https://wpvulndb.com/vulnerabilities/8924
+8f67a6203940a1128933d6abf35a526d8e72cc530fd440441583945dbc95e1de;  class_rm_dbmanager.php | Vulnerable Wordpress Plugin RegistrationMagic-Custom Registration Forms Version 3.7.5.1 - 3.7.9.2 | https://wpvulndb.com/vulnerabilities/8924
